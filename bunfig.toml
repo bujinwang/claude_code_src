@@ -1,0 +1,9 @@
+[install]
+peer = false
+
+[debug]
+# Enable debug mode for development
+
+# Module aliasing to redirect bun:bundle to our shim
+[alias]
+"bun:bundle" = "./src/bun-bundle.ts"
